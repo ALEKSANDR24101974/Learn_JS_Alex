@@ -12,3 +12,9 @@ console.log(grum+grim)
 grum = grum.toString()
 console.log(grum)
 //glava -4 upravl ctr81
+//let randomF = random(5,300);
+//let f1= getRandomValues(10);
+let f0 = Math.random();
+console.log(f0);
+//console.log(f1);
+//console.log(randomF);
