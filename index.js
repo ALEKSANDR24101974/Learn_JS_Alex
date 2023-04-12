@@ -1,3 +1,4 @@
+'use strict'
 console.log("privet")
 const grom = '78.8 volt'
 let grum = parseFloat(grom)
@@ -20,14 +21,18 @@ console.log(f0);
 //console.log(randomF);
 let amor = 50;
 let belamor = 1;
-while (belamor <= 10 && belamor >= 1) {
+while (belamor <= 5 && belamor >= 1) {
     belamor++;
     amor++;
     console.log(amor, belamor)
 }
-for (belamor = 0; belamor < 10; belamor++) {
+for (belamor = 0; belamor < 3; belamor++) {
     let matem = (Math.random() + 1) * 23;
     if (matem > 30) console.log(matem);
-    else { console.log(matem + "-хуйня") }
+    else { console.log(matem + "-ok") }
 }
-
+console.log(`лет так в ${amor} когда нам было ${belamor} `);
+let granat = 'granat_big'
+console.log(typeof (belamor));
+console.log(typeof (amor));
+console.log(typeof (granat));
