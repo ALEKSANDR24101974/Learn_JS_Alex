@@ -36,3 +36,9 @@ let granat = 'granat_big'
 console.log(typeof (belamor));
 console.log(typeof (amor));
 console.log(typeof (granat));
+do {
+    console.log(amor);
+    amor++;
+}while (amor<59)
+
+    
