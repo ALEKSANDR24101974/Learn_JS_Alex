@@ -40,5 +40,16 @@ do {
     console.log(amor);
     amor++;
 }while (amor<59)
+const fima = 67;
+const egor = 53;
+function gena(fig1,fig2) {
+    return fig1+fig2-7;
+}
+console.log(gena(fima,egor));
+const fi1 = 4; 
+const fi2 = 6; 
+const fi3 = 7;
+const petr = (fi6,fi7,fi8) => fi1*fi3-fi2;
+console.log(petr(fi1,fi2,fi3));
 
     
